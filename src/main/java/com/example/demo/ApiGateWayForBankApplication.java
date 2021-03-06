@@ -8,8 +8,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableZuulProxy
 public class ApiGateWayForBankApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ApiGateWayForBankApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ApiGateWayForBankApplication.class, args);
+    }
 }
